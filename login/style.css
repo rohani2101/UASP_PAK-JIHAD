@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #75a1df;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 400px;
+    background-color: #fff;
+    padding: 60px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(164, 12, 12, 0.1);
+}
+
+.container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container form input[type="text"],
+.container form input[type="email"],
+.container form input[type="password"],
+.container form select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.container form select {
+    appearance: none;
+    padding-right: 30px; /* for arrow space */
+    background-image: url('data:image/svg+xml;utf8,<svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 12L6 8h8l-4 4z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 20px;
+}
+
+.container form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.container form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.container p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.container p a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.container p a:hover {
+    text-decoration: underline;
+}
+.btn-other-form:hover {
+    background-color: rgb(22, 32, 226);
+}
